@@ -16,3 +16,11 @@ li:hover{
 div{
     background-color: lightcoral;
 }
+
+tr{
+  width: 50px;       /* Ancho deseado */
+  height: 50px;      /* Mismo valor que el ancho */
+  background-color: blue; /* Color del cuadrado */
+  border: 5px solid black;
+  border-radius: 5px;
+}
