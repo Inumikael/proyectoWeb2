@@ -4,46 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mascotas</title>
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div>
-        <h1><img src="./public/gifsitoChan.gif" alt=""></h1>
+    
+    <div class="container">
+        <h1 class="logo-container"><img src="./public/gifsitoChan.gif" alt="Logo"></h1>
+        
         <h2 class="Titulo">Mascotas</h2>
         <hr>
-        <p>Tienda de mascotas y adopciones</p>
+        
+        <p class="efecto-texto" data-item="Tienda de mascotas y adopciones">
+            Tienda de mascotas y adopciones
+        </p>
+        
         <nav>
             <ul class="menuItems">
-                <li><a id="redireccion" href="#">Tienda</a></li>
-                <li><a id="redireccion" href="#">Adopciones</a></li>
-                <li><a id="redireccion" href="#">Productos</a></li>
-                <li><a id="redireccion" href="#">Consultas</a></li>
-                <li><a id="redireccion" href="#">Contacto</a></li>
+                <li><a class="redireccion" href="#" data-item="Tienda">Tienda</a></li>
+                <li><a class="redireccion" href="#" data-item="Adopciones">Adopciones</a></li>
+                <li><a class="redireccion" href="#" data-item="Productos">Productos</a></li>
+                <li><a class="redireccion" href="#" data-item="Consultas">Consultas</a></li>
+                <li><a class="redireccion" href="#" data-item="Contacto">Contacto</a></li>
             </ul>
-            </nav>
-        </div>
-        <p></p>
-        <p></p>
-        <table>
+        </nav>
+    </div>
+
+    <table class="tabla-mascotas">
+        <thead>
             <tr>
                 <th>Id Mascota</th>
                 <th>Nombre</th>
                 <th>Descripción</th>
                 <th>Imagen</th>
             </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td>1</td>
                 <td>Reyna</td>
-                <td>Perrita de 5 meses, docil y activa</td>
+                <td>Perrita de 5 meses, dócil y activa</td>
                 <td><img src="./public/Perro.webp" alt="Perrito"></td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Miausi</td>
-                <td>Gato Loco quieriendo ser el Mejor</td>
+                <td>Gato loco queriendo ser el mejor</td>
                 <td><img src="./public/Gato.png" alt="Gatito"></td>
             </tr>
-            
-        </table>
+        </tbody>
+    </table>
+
+    <footer>
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+
 </body>
 </html>
