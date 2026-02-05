@@ -1,0 +1,45 @@
+```mermaid
+mindmap
+  root((Paradigmas de<br/>Programación))
+    Funcional<br/>(Ej. Haskell)
+      ::icon(fa fa-calculator)
+      1.2.1 Evaluaciones
+        Perezosa (Lazy)
+        Ansiosa (Strict)
+        Transparencia Referencial
+      1.2.2 Tipos de Datos
+        Inmutables
+        Primitivos (Int, Bool)
+        ADTs (Algebraicos)
+        Listas y Tuplas
+      1.2.3 Disciplina de Tipos
+        Estático y Fuerte
+        Inferencia de Tipos
+        Polimorfismo Paramétrico
+      1.2.4 Funciones
+        Ciudadanos de 1ra Clase
+        Puras
+        Orden Superior
+        Currying
+        Recursividad
+
+    Lógico<br/>(Ej. Prolog)
+      ::icon(fa fa-search)
+      1.2.1 Evaluaciones
+        Unificación
+        Backtracking
+        Resolución SLD
+      1.2.2 Tipos de Datos
+        Términos
+        Átomos
+        Variables
+        Estructuras
+        Listas
+      1.2.3 Disciplina de Tipos
+        Dinámico
+        Verificación en ejecución
+      1.2.4 Funciones (Predicados)
+        Relaciones
+        Retorno: Éxito / Fallo
+        Multidireccionalidad
+```
